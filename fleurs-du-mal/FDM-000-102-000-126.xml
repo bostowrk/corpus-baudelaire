@@ -7,12 +7,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
         <fileDesc>
             <titleStmt>
                 <!--In the line below, insert the title of the poem. If the poem begins with an article, remove leading article from the title in the element value - and include the complete title in a rend attribute.-->
-                <title rend="La mort des amants">Mort des Amants</title>
+                <title>Rêve parisien</title>
                 <author>Charles Baudelaire</author>
                 <respStmt>
                     <resp>Encoded by</resp>
                     <!--In the line below, Insert your initials as the XML id and your name between the tags-->
-                    <name xml:id="TFH">Todd F. Hughes</name>
+                    <name xml:id="ZB">Zora Breeding</name>
                 </respStmt>
                 <sponsor>Jean and Alexander Heard Library</sponsor>
             </titleStmt>
@@ -27,7 +27,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </address>
                 <date>2014</date>
                 <!--Below, insert the number of the poem, according to the established protocol-->
-                <idno>FDM-098-121-000-146</idno>
+                <idno>FDM-000-102-000-126</idno>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
@@ -119,7 +119,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </biblStruct>
                     </witness>
                 </listWit>
-                <!-- These comments are insane.  create witList in sourceDesc with the different editions and their bib data
+                <!-- create witList in sourceDesc with the different editions and their bib data
 1. 1857 Unexpurgated xml:id="U1857"
 2. 1857 Expurgated xml:id="E1857"
 3. 1861 2nd edition censored xml:id="FDM1861"
@@ -142,35 +142,104 @@ Online Distributed Proofreading Team.</p>
     </teiHeader>
     <text>
         <body>
-            <div type="sonnet">
+            <div type="poem">
                 <head>
-                    <title>La Mort des Amants</title>
+                    <title type="main">Rêve parisien</title>
+                    <title type="sub">À Constantin Guys</title>
                 </head>
                 <lg type="stanza" subtype="quatrain" n="1">
-                    <l n="">Nous aurons des lits pleins d'odeurs légères,</l>
-                    <l n="1">Des divans profonds comme des tombeaux,</l>
-                    <l n="2">Et d'étranges fleurs sur des étagères,</l>
-                    <l n="3">Ecloses pour nous sous des cieux plus beaux.</l>
+                    <l n="1">De ce terrible paysage,</l>
+                    <l n="2">Tel que jamais mortel n'en vit,</l>
+                    <l n="3">Ce matin encore l'image,</l>
+                    <l n="4">Vague et lointaine, me ravit.</l>
                 </lg>
                 <lg type="stanza" subtype="quatrain" n="2">
-                    <l n="4">Usant à l'envi leurs chaleurs dernières,</l>
-                    <l n="5">Nos deux coeurs seront deux vastes flambeaux,</l>
-                    <l n="6">Qui réfléchiront leurs doubles lumières</l>
-                    <l n="7">Dans nos deux esprits, ces miroirs jumeaux.</l>
+                    <l n="5">Le sommeil est plein de miracles!</l>
+                    <l n="6">Par un caprice singulier</l>
+                    <l n="7">J'avais banni de ces spectacles</l>
+                    <l n="8">Le végétal irrégulier,</l>
                 </lg>
-                <lg type="stanza" subtype="tercet" n="3">
-                    <l n="8">Un soir fait de rose et de bleu mystique,</l>
-                    <l n="9">Nous échangerons un éclair unique,</l>
-                    <l n="10">Comme un long sanglot, tout chargé d'adieux;</l>
+                <lg type="stanza" subtype="quatrain" n="3">
+                    <l n="9">Et, peintre fier de mon génie,</l>
+                    <l n="10">Je savourais dans mon tableau</l>
+                    <l n="11">L'enivrante monotonie</l>
+                    <l n="12">Du métal, du marbre et de l'eau.</l>
                 </lg>
-                <lg type="stanza" subtype="tercet" n="4">
-                    <l n="11">Et plus tard un Ange, entr'ouvrant les portes,</l>
-                    <l n="12">Viendra ranimer, fidèle et joyeux,</l>
-                    <l n="13">Les miroirs ternis et les flammes mortes.</l>
+                <lg type="stanza" subtype="quatrain" n="4">
+                    <l n="13">Babel d'escaliers et d'arcades,</l>
+                    <l n="14">C'était un palais infini</l>
+                    <l n="15">Plein de bassins et de cascades</l>
+                    <l n="16">Tombant dans l'or mat ou bruni;</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="5">
+                    <l n="17">Et des cataractes pesantes,</l>
+                    <l n="18">Comme des rideaux de cristal</l>
+                    <l n="19">Se suspendaient, éblouissantes,</l>
+                    <l n="20">À des murailles de métal.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="6">
+                    <l n="21">Non d'arbres, mais de colonnades</l>
+                    <l n="22">Les étangs dormants s'entouraient</l>
+                    <l n="23">Où de gigantesques naïades,</l>
+                    <l n="24">Comme des femmes, se miraient.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="7">
+                    <l n="25">Des nappes d'eau s'épanchaient, bleues,</l>
+                    <l n="26">Entre des quais roses et verts,</l>
+                    <l n="27">Pendant des millions de lieues,</l>
+                    <l n="28">Vers les confins de l'univers:</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="8">
+                    <l n="29">C'étaient des pierres inouïes</l>
+                    <l n="30">Et des flots magiques, c'étaient</l>
+                    <l n="31">D'immenses glaces éblouies</l>
+                    <l n="32">Par tout ce qu'elles reflétaient!</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="9">
+                    <l n="33">Insouciants et taciturnes,</l>
+                    <l n="34">Des Ganges, dans le firmament,</l>
+                    <l n="35">Versaient le trésor de leurs urnes</l>
+                    <l n="36">Dans des gouffres de diamant.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="10">
+                    <l n="37">Architecte de mes féeries,</l>
+                    <l n="38">Je faisais, à ma volonté,</l>
+                    <l n="39">Sous un tunnel de pierreries</l>
+                    <l n="40">Passer un océan dompté;</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="11">
+                    <l n="41">Et tout, même la couleur noire,</l>
+                    <l n="42">Semblait fourbi, clair, irisé;</l>
+                    <l n="43">Le liquide enchâssait sa gloire</l>
+                    <l n="44">Dans le rayon cristallisé.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="12">
+                    <l n="45">Nul astre d'ailleurs, nuls vestiges</l>
+                    <l n="46">De soleil, même au bas du ciel,</l>
+                    <l n="47">Pour illuminer ces prodiges,</l>
+                    <l n="48">Qui brillaient d'un feu personnel!</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="13">
+                    <l n="49">Et sur ces mouvantes merveilles</l>
+                    <l n="50">Planait (terrible nouveauté!</l>
+                    <l n="51">Tout pour l'oeil, rien pour les oreilles!)</l>
+                    <l n="52">Un silence d'éternité.</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="14">
+                    <l n="53">En rouvrant mes yeux pleins de flamme</l>
+                    <l n="54">J'ai vu l'horreur de mon taudis,</l>
+                    <l n="55">Et senti, rentrant dans mon âme,</l>
+                    <l n="56">La pointe des soucis maudits;</l>
+                </lg>
+                <lg type="stanza" subtype="quatrain" n="15">
+                    <l n="57">La pendule aux accents funèbres</l>
+                    <l n="58">Sonnait brutalement midi,</l>
+                    <l n="59">Et le ciel versait des ténèbres</l>
+                    <l n="60">Sur le triste monde engourdi.</l>
                 </lg>
             </div>
+            
         </body>
     </text>
 </TEI>
-
 
